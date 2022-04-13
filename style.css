@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: pink;
+}
+
+label{
+    display: block;
+    padding-bottom: 1rem;
+    
+}
+
+#submit-btn{
+    padding: 0.5rem;
+    color: brown;
+   border-radius: 0.5rem;
+}
+
+.output{
+    margin: 1rem;
+    color: blue;
+}
