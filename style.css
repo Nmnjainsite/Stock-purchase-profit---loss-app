@@ -1,21 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=Signika+Negative:wght@500;600&display=swap');
 body{
     text-align: center;
-    background-color: pink;
+    background-color: orange;
+    font-family: 'Signika Negative', sans-serif;
 }
-
+h1{
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 0.8rem;
+}
 label{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    align-items: center;
+    margin: auto;
     padding-bottom: 1rem;
-    
+    font-size: 20px;
+}
+#initial-price{
+  
+    border: 2px solid orange;
+    border-radius: 1rem;
+    padding: 0.8rem;
+}
+#stocks-quantity{
+    border: 2px solid orange;
+    border-radius: 1rem;
+    padding: 0.8rem;
+}
+#current-price{
+    border: 2px solid orange;
+    border-radius: 1rem;
+    padding: 0.8rem;
 }
 
 #submit-btn{
     padding: 0.5rem;
-    color: brown;
+    background-color: lightblue;
+    border: 1px solid orange;
    border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .output{
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 0.8rem;
     margin: 1rem;
-    color: blue;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+}
+footer{
+  padding: 1rem ;
+ border: 1px solid black;
+ border-radius: 1rem;
+  margin: 2rem;
+ 
+    font-size: 18px;
+}
+
+li{
+   
+    list-style: none;
+    display: inline;
+    margin: 0.7rem;
 }
